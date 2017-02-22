@@ -23,12 +23,7 @@ public class Deck {
                 deck.add(c);
             }
         }
-        for (String suit : suits) {
-            for (String card : cards) {
 
-
-            }
-        }
 
     }
     public void shuffle(){
@@ -40,7 +35,7 @@ public class Deck {
         Random r = new Random();
 
         while (deck.size() > 0){
-            temp.add(deck.remove(r.nextInt(deck.size())))
+            temp.add(deck.remove(r.nextInt(deck.size())));
         }
         deck = temp;
     }

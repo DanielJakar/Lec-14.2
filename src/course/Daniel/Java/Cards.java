@@ -12,7 +12,7 @@ public class Cards {
         this.rank = rank;
     }
 
-    int getvalue (String rank){
+    int getvalue (){
 
 //        switch (rank){
 //            case "Ace":
